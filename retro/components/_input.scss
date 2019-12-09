@@ -1,0 +1,26 @@
+
+.form-control{
+  padding: 16px;
+  display: block;
+  margin-bottom: 5px!important;
+  color: color('gray-6')!important;
+  border: 2px solid transparentize(color('gray-6'), .5);
+  height: 50px;
+  @include border-radius(5px);
+
+  &--register{
+    padding: 5px 10px;
+    background-color: color('gray-5');
+    border: 2px solid transparentize(color('gray-6'), .9);
+  }
+
+  &:focus{
+    border-color: color('gray-6');
+    box-shadow: none;
+  }
+
+
+}
+
+@include placeholder(color('gray-6'));
+

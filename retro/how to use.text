@@ -1,0 +1,7 @@
+1. menggunakan bostrap 4.3
+2. bukak cmd di dalam folder retro
+2. jalankan perintah 
+
+	sass --watch main.scss:../css/retro.min.css pages/_dashboard.scss:../css/retro-dashboard.min.css pages/_homepage.scss:../css/retro-homepage.min.css --style compressed 
+	
+	untuk menjalankan dan lebih dinamis

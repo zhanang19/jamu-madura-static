@@ -1,0 +1,40 @@
+$colors: (
+	'white'		: #FFFFFF,
+	'gray-1'	: #E7E7E7,
+	'gray-2'	: #CFCFCF,
+	'gray-3'	: #B8B8B8,
+	'gray-4'	: #A0A0A0,
+	'gray-5'	: #888888,
+	'gray-6'	: #707070,
+	'brown-1'	: #D49533,
+	'brown-2'	: #BE8531,
+	'brown-3'	: #A8752F,
+	'brown-4'	: #93662E,
+	'brown-5'	: #7D562C,
+	'brown-6'	: #67462A,
+	'brown-7'	: #513628,
+	'black'		: #000000,
+	
+	);
+
+$images-size:(
+	'xs' : 10px,
+	'sm' : 20px,
+	'md' : 30px,
+	'lg' : 40px,
+	'xl' : 50px,
+	);
+
+// Default Font Size
+$base-font-size : 16px;
+
+// Responsive Breakpoint
+$br-xxs	: 375px;
+$br-xx	: 425px;
+$br-xs	: 480px;
+$br-mm	: 512px;
+$br-sm	: 576px;
+$br-md	: 768px;
+$br-lg	: 992px;
+$br-xl	: 1140px;
+$br-xxl	: 1200px;

@@ -1,0 +1,151 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
+
+// Fonts
+@font-face {
+  font-family: com-bold;
+  src: url('../fonts/TTCommons-Bold.ttf');
+}
+
+@font-face {
+  font-family: com-demibold;
+  src: url('../fonts/TTCommons-DemiBold.ttf');
+}
+
+@font-face {
+  font-family: com-italic;
+  src: url('../fonts/TTCommons-Italic.ttf');
+}
+
+@font-face {
+  font-family: com-light;
+  src: url('../fonts/TTCommons-Light.ttf');
+}
+
+@font-face {
+  font-family: com-medium;
+  src: url('../fonts/TTCommons-Medium.ttf');
+}
+
+@font-face {
+  font-family: com-regular;
+  src: url('../fonts/TTCommons-Regular.ttf');
+}
+
+@font-face {
+  font-family: com-thin;
+  src: url('../fonts/TTCommons-Thin.ttf');
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+    @media screen and(max-width: $br-md){
+        font-size: 35px;
+    }
+}
+
+h3{
+    font-size: 40px;
+    @media screen and(max-width: $br-md){
+        font-size: 25px;
+    }
+}
+
+h4{
+    font-size: 30px;
+    @media screen and(max-width: $br-md){
+        font-size: 20px;
+    }
+}
+
+h5{
+    font-size: 24px;
+    @media screen and(max-width: $br-md){
+        font-size: 18px;
+    }
+}
+
+h6{
+    font-size: 18px;
+    @media screen and(max-width: $br-md){
+        font-size: 14px;
+    }
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 900;
+}
+
+.semibold{
+    font-weight: 700 !important;
+}
+.bold{
+    font-weight: 900 !important;
+}
+
+.normal{
+    font-weight:normal !important;
+}
+
+
+.title{
+    margin-bottom: 50px;
+    @media screen and(max-width: $br-sm){
+        margin-bottom: 30px;
+    }
+    &--md{
+        margin-bottom: 80px;
+        @media screen and(max-width: $br-sm){
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.com__bold{
+    font-family:'com-bold', sans-serif;
+}
+
+.com__reguler{
+    font-family:'com-reguler', sans-serif;
+}
+
+.com__demibold{
+    font-family:'com-demibold', sans-serif;
+}
+
+.com__medium{
+    font-family:'com-medium', sans-serif;
+}
+
+.com__light{
+    font-family:'com-light', sans-serif;
+}
+
+.com__thin{
+    font-family:'com-thin', sans-serif;
+}
+
+.com__italic{
+    font-family:'com-italic', sans-serif;
+}
+
+
+.uppercase__font{
+    text-transform: uppercase;
+}
+.capitalize__font{
+    text-transform: capitalize;
+}
+
+.justify{
+    text-align:justify;
+}
+
+.underline{
+    text-decoration: underline;
+}

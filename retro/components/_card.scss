@@ -1,0 +1,30 @@
+.card{
+	border: 0;
+	margin-bottom: 30px;
+	@include border-radius(4px);
+	@include box-shadow(0 50px 50px transparentize(color('gray-6'),.95));
+	.card-body{
+		&.md{
+			padding: 40px;
+		}
+	}
+}
+
+.card__list--keunggulan{
+	box-shadow: 30px 40px 90px rgba(0,0,0,.1) !important;
+	-moz-box-shadow: 30px 40px 90px rgba(0,0,0,.1) !important;
+	-webkit-box-shadow: 30px 40px 90px rgba(0,0,0,.1) !important;
+
+	>h1{
+		position: absolute;
+		top:50%;
+		left:0;
+		transform: translate(-50%,-50%);
+	}
+}
+
+.card__produk{
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
